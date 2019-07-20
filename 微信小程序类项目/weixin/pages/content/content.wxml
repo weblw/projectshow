@@ -1,0 +1,33 @@
+<!--pages/content/content.wxml-->
+<!-- <text>我是content页面</text> -->
+<import src='/pages/template/template.wxml' />
+
+<view class='containers'> 
+  <view class='lunboimg'>
+    <!-- 轮播图 -->
+    <swiper indicator-dots autoplay interval="2000" indicator-color='rgba(100, 200, 220, .3)'>
+      <swiper-item>
+        <image src="/images/1.jpg"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/2.jpg"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/3.jpg"/>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/4.jpg"/>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class='contentnews'>
+    <text>主要新闻版块展示</text>
+    <block wx:for='{{listArr}}' wx:key='{{index}}'>
+      <view data-index='{{index}}' bindtap='goToDetail'>
+        <template is='newsContent' data='{{...item}}' />
+      </view>
+    </block>
+  </view>
+</view>
+

@@ -1,0 +1,19 @@
+<!--pages/videoInfo/videoInfo.wxml-->
+<view class="container">
+
+  <view class="title">
+    <text>主演阵容</text>
+  </view>  
+
+  <view class="zhuyan_info">
+    <view class="item" wx:for="{{videoInfo.casts}}" wx:key="{{item.large}}">
+      <view class="img">
+        <image src="{{item.avatars.large}}"/>
+      </view>
+      <view class="name">
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>

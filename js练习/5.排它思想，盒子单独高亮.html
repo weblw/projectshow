@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				width:100px;
+				height:100px;
+				background-color: yellow;
+				margin:20px;
+				float: left;
+				cursor: pointer;
+				line-height: 100px;
+			}
+		</style>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("div").click(function(){
+					$(this).css("background-color","#FFAABB").siblings().css("background-color","yellow");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div>我是1号盒子</div>
+		<div>我是2号盒子</div>
+		<div>我是3号盒子</div>
+		<div>我是4号盒子</div>
+		<div>我是5号盒子</div>
+	</body>
+</html>

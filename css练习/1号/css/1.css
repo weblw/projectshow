@@ -1,0 +1,140 @@
+body{
+	margin:0;
+	padding:0;
+	font:75% georgia,sans-serif;
+	line-height:1.9;
+	color:#555753;
+	background: url(../img/blossoms.jpg) no-repeat bottom right;
+}
+.container{
+	background: url(../img/zen-bg.jpg) no-repeat top left;
+	padding:0 175px 0 110px;
+	margin:0;
+	position:relative;
+}
+.intro{
+	min-width: 470px;
+	width:100%;
+}
+.pageHeader{
+	padding-top:20px;
+	height:87px;
+}
+.pageHeader h1{
+	background: url(../img/h1.gif) no-repeat top left;
+	margin-top:10px;
+	display: block;
+	height:87px;
+	width:219px;
+	float:left;
+	text-indent: -5000px;
+}
+.pageHeader h2{
+	background: url(../img/h2.gif) no-repeat top left;
+	margin-top:58px;
+	margin-bottom: 40px;
+	width:200px;
+	height: 18px;
+	float:right;
+	text-indent: -5000px;
+}
+.quickSummary{
+	clear: both;
+	margin:20px 20px 20px 10px;
+	width:160px;
+	float:left;	
+}
+.quickSummary p{
+	font:italic 1.1em/2.2 georgia;
+	text-align: center;
+}
+.preamble{
+	clear:right;
+	padding:0 10px;
+}
+h3{
+	font:italic normal 1.4em georgia,sans-serif;
+	letter-spacing: 1px;
+	margin-bottom:0;
+	color:#7D775C;
+}
+p{
+	margin-top:0;
+	text-align: justify;
+}
+.supportingText{
+	padding-left:10px;
+	margin-bottom: 40px;
+}
+.footer{
+	text-align: center;
+}
+a:link{
+	font-weight: bold;
+	text-decoration: none;
+	color:#B7A5DF;
+}
+a:hover{
+	text-decoration: underline;
+	color:#9685BA;
+}
+.footer a:link{
+	margin-right: 20px;
+}
+.linkList{
+	margin-left:600px;
+	position: absolute;
+	top:0;
+	right:0;
+}
+.wrapper{
+	font:10px verdana,sans-serif;
+	background: url(../img/paper-bg.jpg) top left repeat-y;
+	padding:10px;
+	margin-top:150px;
+	width:130px;
+}
+.selection h3{
+	background: url(../img/h3.gif) no-repeat top left;
+	margin:10px 0 5px 0;
+	width:97px;
+	height:16px;
+}
+.selection h3 span,.archives h3 span,.resources h3 span{
+	display: none;
+}
+.archives h3{
+	background: url(../img/h5.gif) no-repeat top left;
+	margin:25px 0 5px 0;
+	width:57px;
+	height:14px;
+}
+.resources h3{
+	background: url(../img/h6.gif) no-repeat top left;
+	margin:25px 0 5px 0;
+	width:63px;
+	height:10px;
+}
+.linkList ul{
+	margin:0;
+	padding:0;
+}
+.linkList ul li{
+	line-height: 1.3em;
+	background: url(../img/cr1.gif) no-repeat top center;
+	display: block;
+	padding-top:5px ;
+	padding-bottom: 5px;
+	list-style: none;
+}
+.linkList ul li a{
+	color:#988F5E;
+}
+.extra1{
+	background: url(../img/cr2.gif) top left no-repeat;
+	position: absolute;
+	top:40px;
+	right:0;
+	width:148px;
+	height:110px;
+}

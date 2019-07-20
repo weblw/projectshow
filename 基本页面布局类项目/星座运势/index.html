@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin:0px;
+				padding:0px;
+				font-size:18px;
+			}
+			#container{
+				width:530px;
+				height:440px;
+				margin:50px auto;
+				border:1px solid black;	
+				position:relative;			
+			}
+			h1{
+				color:#666;
+				font-size:24px;
+				margin:30px 20px;
+			}
+			#startimg{
+				width:50px;
+				height:50px;
+				background:url(img/星座精灵图.png) no-repeat;
+				float:left;
+				margin:-10px 30px;
+			}
+			select{
+				padding-left:10px;
+				width:200px;
+				height:30px;
+				font-size:18px;
+				margin-left: 20px;
+			}
+			#sbox{
+				width:170px;
+				height:30px;
+				margin:20px 130px; 
+				line-height: 30px;
+				position: relative;
+			}
+			#sbox #sstart{
+				width: 80px;
+				height: 15px;
+				float:right;
+				margin-top:7.5px;
+				background:url(img/星星图.png) no-repeat 0px -27px;
+			}
+			#sbox #sstarts{
+				width:0px;
+				height: 15px;
+				margin-top:7.5px;
+				position:absolute;
+				top:0px;
+				right:0px;
+				background:url(img/星星图.png) no-repeat 0px 0px;
+				overflow: hidden;
+			}
+			#bottom span{
+				display: none;
+				margin:50px 20px;
+				
+			}
+			#bottom .sblock{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h1>星座运势</h1>
+			<div id="startimg"></div>
+			<select id="sec">
+				<option value="1">白羊座03.21-04.19</option>
+				<option value="2">金牛座04.20-05.20</option>
+				<option value="3">双子座05.21-06.21</option>
+				<option value="4">巨蟹座06.22-07.22</option>
+				<option value="5">狮子座07.23-08.22</option>
+				<option value="6">处女座08.23-09.22</option>
+				<option value="7">天秤座09.23-10.23</option>
+				<option value="8">天蝎座10.24-11.22</option>
+				<option value="9">射手座 11.23-12.21</option>
+				<option value="10">摩羯座12.22-01.19</option>
+				<option value="11">水瓶座01.20-02.18</option>
+				<option value="12">双鱼座02.19-03.20</option>
+			</select>
+			<div id="sbox">
+				<span>今日运势：</span>
+				<div id="sstart"></div>
+				<div id="sstarts"></div>
+			</div>
+			<div id="bottom">
+				<span class="sblock">今天的事业运势不错，虽然容易有一些竞争者或其他小人出现在事业中，但他们反而会成就自己的事业。今天仍然适合外出学习进修，提升自己。</span>
+				<span>外出容易遇到一些小麻烦，但终能化解，转不利为有利。</span>
+				<span>会专注于事业方面，虽然在事业工作方面，会有些迷茫，这天感情方面运势也不错。</span>
+				<span>这天巨蟹会很忙碌，但会忙得非常愉快，即使平时不太爱运动的巨蟹，这天也可能很强活动一下自己。</span>
+				<span>快乐的一天，也有迁移运势，工作和健康方面的运势也都还不错。</span>
+				<span>这天适合多听取一些朋友，对自己家庭，或者房子装修布置的建议。</span>
+				<span>有利于学习考试，与上司的沟通也会比较良好，总体比较愉快。</span>
+				<span>财运很好的一天，讲话比较严谨大气，也适合多一些娱乐活动。</span>
+				<span>不错的一天，财运仍然较好，会因为平时不太熟悉的一些晚辈帮助，或者因为娱乐活动而获利。</span>
+				<span>有朋友来帮助自己，让自己信心满满，心理层面，也是比较愉悦。</span>
+				<span>暗中会得人帮助，也容易得到亲戚，邻居的一些帮助，这天财运上也还可以。</span>
+				<span>社交运仍然强旺，内心也变得强大起来，也会因为事业方面的事情，心情愉快。</span>
+			</div>
+		</div>
+		<script type="text/javascript" src="css/js.js"></script>
+	</body>
+</html>

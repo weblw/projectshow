@@ -1,0 +1,293 @@
+*{
+	margin:0;
+	padding:0;
+}
+.dhlbj{
+	width:100%;
+	background-color:#222222;
+}
+.dhlbg{
+	width:1200px;
+	height:56px;
+	margin:0 auto;
+	text-align: center;
+}
+.dhlbg a{
+	text-decoration: none;	
+	color:#9d9d9d;
+	font-size:14px;
+	line-height: 56px;;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
+.dhlbg a span{
+	font-size:18px;
+}
+.dhlbg a:hover{
+	color:#fff;
+}
+
+.dhly li{
+	display:inline;
+	list-style: none;
+	float:left;
+	margin-right:42px;
+}
+.dhlz p{
+	float:right;	
+}
+.photobgc{
+	width:100%;
+	background:linear-gradient(45deg,#020031 0,#6d3353 100%);
+}
+/*.photobg{
+	width:100%;
+	position: absolute;
+	background:linear-gradient(45deg,#020031 0,#6d3353 100%);
+	background-image:url(../img/1.png);
+	opacity:0.4;
+	z-index:-1;
+}*/
+.photo{
+	width:1200px;
+	height:450px;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+}
+.photo h1,.photo h2,.photo button,.photo a{
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.photo h1{
+	font-size:100px;
+	font-weight:700;
+	position:absolute;
+	top:80px;
+	left:365px;
+}
+.photo h2{
+	font-size:30px;
+	font-weight:200;
+	position:absolute;
+	top:200px;
+	left:205px;
+}
+.photo button{
+	font-size:18px;
+	width:360px;
+	height:66px;
+	background-color:#337ab7;
+	border-radius: 6px;
+	border:1px solid #337ab7;
+	position:absolute;
+	bottom:120px;
+	left:415px;
+}
+.photo a{
+	font-size:14px;
+	text-decoration: none;	
+	color:#9d9d9d;
+	position:absolute;
+	bottom:80px;
+	left:510px;
+}
+.photo a:hover{
+	text-decoration:underline;	
+	color:white;
+}
+.sinabg{
+	width:100%;
+	background-color:#f5f5f5;
+	text-align: center;
+}
+.sina{
+	width:1200px;
+	height:70px;
+	position:relative;
+	margin:0 auto;
+}
+.sina a{
+	color:#555;
+	font-size:14px;
+	font-family:  "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	text-decoration: none;
+	line-height: 70px;
+}
+.sina a{
+	color:#555;
+	font-size:14px;
+	font-family:  "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	text-decoration: none;
+	line-height: 70px;
+	position:absolute;
+	left:400px;
+}
+.sina .red{
+	position:absolute;
+	left:600px;
+}
+.sina .underline:hover{
+	text-decoration:underline;
+}
+.sina .red:hover{
+	text-decoration:underline;
+	color: red;
+}
+.bigtitle{
+	width:1200px;
+	margin:0px auto;
+	text-align: center;
+}
+.boxtitle{
+	width:860px;
+	height:100px;
+	border-bottom:1px solid rgb(238, 238, 238);
+	margin:0px auto;
+	text-align: center;
+}
+.boxtitle h1{
+	font-size:42px;
+	color: #333;
+	font-weight: 500;
+	font-family:  "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	margin-top:50px;
+}
+.boxtitle p{
+	font-size:14px;
+	font-weight: 200;
+	color: #333;
+	font-family:  "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	margin-top:10px;
+}
+.mainbg{
+	width:100%;	
+}
+.main{
+	width:1200px;
+	height:2350px;
+	margin:0 auto;
+}
+.mini{
+	width:270px;
+	height:340px;
+	border:1px solid rgb(238, 238, 238);
+	float: left;
+	margin-top:30px;
+	margin-right:36px;
+}
+.mini4{
+	width:270px;
+	height:340px;
+	border:1px solid rgb(238, 238, 238);
+	float: left;
+	margin-top:30px;
+}
+.image{
+	width:256px;
+	height:160px;
+	margin:5px;	
+}
+.image img{
+	width:256px;
+}
+.image a{
+	text-decoration: none;
+}
+.image h1{
+	color:#337ab7;
+	font-size:24px;
+	font-weight:500;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	margin-top:38px;
+}
+.image h1:hover{
+	color:#23527c;
+}
+.image h3{
+	color:#777;
+	font-size:16px;
+	font-weight:400;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	text-align: center;
+	margin-top:10px;
+}
+.image p{
+	color:#333;
+	font-size:14px;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	text-align: center;
+	margin:20px;
+}
+
+.bottombg{
+	width:100%;
+	border-top:1px solid rgb(238, 238, 238);
+}
+.bottomtop{
+	width:1200px;
+	height:170px;
+	border:red;
+	border-bottom:1px solid rgb(238, 238, 238);
+	margin:0 auto;
+	position:relative;
+}
+.bottomtop img{
+	position:absolute;
+	top:50px;
+}
+.bottomtop p{
+	position:absolute;
+	top:100px;
+	color:#777;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+	font-size:14px;	
+}
+.lianxi{
+	float:right;
+	margin-left:70px;
+	margin-top:40px;
+	
+}
+
+.lianxi h3{
+	color:#563d7c;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	margin-bottom:14px;
+}
+
+.lianxi a{
+	text-decoration: none;
+	display: block;
+	color: #777;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+.lianxi a:hover{
+	text-decoration: underline;
+}
+.bottomadress{
+	width:1200px;
+	height:100px;
+	margin: 0 auto;
+	position:relative;
+}
+.bottomadress p{
+	color:#777;
+	font-size:13px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;	
+}
+.bottomadress .last{
+	width:130px;
+	border-right:1px solid rgb(238, 238, 238);
+	position:absolute;
+	top:20px;
+	left:450px;
+}
+.bottomadress .last2{	
+	position:absolute;
+	top:20px;
+	left:600px;
+}

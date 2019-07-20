@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="panel panel-default">
+			    <div class="panel-body">
+			       <h1 class="text-center">评论首页</h1>
+			    </div>
+			</div>
+			<a href="post" class="btn btn-danger">发表评论</a>
+			<a href="/delete" class="btn btn-info pull-right">删除评论</a>
+			<ul class="list-group">
+				{{each messages val i}}
+			    	<li class="list-group-item">{{val.name}}说：{{val.message}}<span class="pull-right">{{val.time}}</span></li>
+			    {{/each}}
+			</ul>
+		</div>
+	</body>
+</html>

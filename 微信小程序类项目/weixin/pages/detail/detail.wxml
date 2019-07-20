@@ -1,0 +1,22 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <!-- 标题 -->
+  <view class="title">
+    <text class="mian_title">{{newsInfo.title}}</text>
+  </view>
+  <!-- 图片 -->
+  <view class="img">
+    <image src="{{newsInfo.img}}" />
+  </view>
+  <!-- 详情 -->
+  <view class="info">    
+    <text class="subtitle">{{newsInfo.content}}</text>
+    <text class="info">{{newsInfo.newtitle}}</text>
+  </view>
+  <!-- 点赞评论 -->
+  <view class="count">
+    <text class="read-count">阅读数：{{newsInfo.read}}</text>
+    <text class="lick-count">点赞数：{{newsInfo.click}}</text>
+    <text class="comment_count">评论数：{{newsInfo.pinlun}}</text>
+  </view>
+</view>

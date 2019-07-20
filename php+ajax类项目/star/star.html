@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			nav{				
+				width: 80%;
+				margin: 100px auto;
+				border: 1px solid #000;
+				background-color: #ccc;
+				overflow: hidden;
+				display: flex;
+				justify-content:space-around;
+			}
+			div{
+				width: 200px;
+				height: 200px;
+				position: relative;
+			}
+			input{
+				display: block;
+				width: 200px;
+				height: 200px;
+				border: none;
+				outline-style: none;
+				background-color:transparent;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 1;
+			}
+			input:nth-child(1){
+				z-index:-1;
+			}
+			img{
+				display: block;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 0;
+				vertical-align: top;
+			}
+			span{
+				display: block;
+				width: 200px;
+				height: 30px;
+				background-color:black;
+				opacity: .7;
+				color:white;
+				text-align: center;
+				line-height: 30px;
+				font-size: 20px;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				z-index:2;
+			}			
+		</style>
+	</head>
+	<body>
+		<nav>	
+			<div>
+				<form action="star.php" method="get">
+					<input type="text" name="num" value="1" />
+					<input type="submit" value=""/>
+					<img src="img/1.jpg"/>
+					<span>范迪安</span>
+				</form>
+			</div>	
+			<div>
+				<form action="star.php" method="get">
+					<input type="text" name="num" value="2" />
+					<input type="submit" value=""/>
+					<img src="img/2.jpg"/>
+					<span>范迪安</span>
+				</form>
+			</div>	
+			<div>
+				<form action="star.php" method="get">
+					<input type="text" name="num" value="3" />
+					<input type="submit" value=""/>
+					<img src="img/3.jpg"/>
+					<span>范迪安</span>
+				</form>
+			</div>	
+			<div>
+				<form action="star.php" method="get">
+					<input type="text" name="num" value="4" />
+					<input type="submit" value=""/>
+					<img src="img/4.jpg"/>
+					<span>范迪安</span>
+				</form>
+			</div>	
+			<div>
+				<form action="star.php" method="get">
+					<input type="text" name="num" value="5" />
+					<input type="submit" value=""/>
+					<img src="img/5.jpg"/>
+					<span>范迪安</span>
+				</form>
+			</div>			
+		</nav>	
+	</body>
+</html>

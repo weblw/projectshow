@@ -1,0 +1,34 @@
+.newstemp .titles text{
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  font-style: italic;
+  background-color: lightpink;
+  margin:3px 0;
+  text-align: center;
+}
+.newstemp .imgs image{
+  width: 100%;
+  display: block;
+}
+.newstemp .content text:nth-child(1){
+  font-size: 18px;
+  text-align: center;
+  text-indent: 2em;
+  color: blue;
+}
+.newstemp .content text{
+  font-size: 16px;
+  text-align: left;
+  text-indent: 2em;
+}
+.newstemp .footer{
+  margin: 2px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #eee;
+}
+.newstemp .footer text{
+  font-size: 13px;
+  color: #ccc;
+}

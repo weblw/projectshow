@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			select{
+				width: 80px;
+				height: 30px;
+				font-size: 20px;
+				padding-left: 20px;
+			}
+			body{
+				background:  url(img/春.jpg)  no-repeat;
+			}
+		</style>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("select").change(function(){
+					var $val=$(this).val();
+					switch($val){
+						case "1":
+							$("body").css("background","url(img/春.jpg)");
+							break;
+						case "2":
+							$("body").css("background","url(img/夏.jpg)");
+							break;
+						case "3":
+							$("body").css("background","url(img/秋.jpg)");
+							break;
+						case "4":
+							$("body").css("background","url(img/冬.jpg)");
+							break;
+						default:
+							break;
+					}
+				});				
+			});
+		</script>
+	</head>
+	<body>
+		<select name="sec">
+			<option value="1">春</option>
+			<option value="2">夏</option>
+			<option value="3">秋</option>
+			<option value="4">冬</option>
+		</select>
+	</body>
+</html>

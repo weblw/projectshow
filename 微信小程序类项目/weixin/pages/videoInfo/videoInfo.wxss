@@ -1,0 +1,42 @@
+/* pages/videoInfo/videoInfo.wxss */
+.container{
+  padding: 10rpx;
+  background-color:#eee;
+}
+.title{
+  font-size: 60rpx;
+  color: blue;
+  font-weight: bold;
+  width: 100%;
+  padding: 20rpx 0;
+  background-color: #ccc;
+  text-align: center;
+}
+.zhuyan_info{
+  width: 100%;
+}
+.item{
+  margin: 20rpx auto;
+  display: flex;
+  justify-content: space-around;
+}
+.img{
+  flex:3;
+}
+.img image{
+  width: 500rpx;
+  height: 500rpx;
+  margin-left: 20rpx;
+}
+.name{
+  flex:1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name text{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: red;
+}

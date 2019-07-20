@@ -1,0 +1,3 @@
+http://www.aidigong.com/
+
+ResponsiveSlides.js 是一款小巧的 jQuery 响应式幻灯片插件

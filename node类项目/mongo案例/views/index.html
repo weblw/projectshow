@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="node/bootstrap/dist/css/bootstrap.css"/>
+		<style type="text/css">
+			a{
+				margin-bottom: 10px!important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="panel panel-default">
+			    <div class="panel-body">
+			    	<h1 class="text-center">商品列表页</h1>
+			    </div>
+			</div>
+			<a href="/add" class="btn btn-info">添加商品</a>
+			<table class="table table-bordered text-center">
+				<thead>
+					<tr>
+						<th class="text-center">品牌</th>
+						<th class="text-center">型号</th>
+						<th class="text-center">价格</th>
+						<th class="text-center">编辑</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{each goods val i}}
+					<tr>
+						<td>{{val.brand}}</td>
+						<td>{{val.model}}</td>
+						<td>{{val.price}}</td>
+						<td>
+							<a href="delete?id={{val._id}}" class="btn btn-success">删除</a>
+							<a href="update?id={{val._id}}" class="btn btn-success">修改</a>
+						</td>
+					</tr>
+					{{/each}}
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

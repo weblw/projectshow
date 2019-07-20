@@ -1,0 +1,164 @@
+body{
+	font:9pt/16pt georgia,"times new roman",times,serif;
+	color:#010E22;
+	background: url(../img/pattern.gif) repeat;
+	margin:0;
+	border:0;
+	padding:0;
+	text-align: center;
+}
+.container{
+	width:740px;
+	text-align: left;
+	position: relative;
+	background:#fff url(../img/teacup.jpg) no-repeat top left;
+	margin:10px auto;
+	border:10px solid #C7CDD8;
+	padding:0;	
+}
+.intro{
+	background:url(../img/leaves_neu.gif) no-repeat top right;
+	margin:0px;
+}
+.pageHeader{
+	padding-top:65px;
+	margin-left:230px;
+}
+.pageHeader h1{
+	background: url(../img/h1.gif) no-repeat top left;
+	margin-top:0px;
+	margin-left: 0px;
+	margin-bottom: 16px;
+	width:192px;
+	height:22px;
+	text-indent:-5000px;
+}
+.pageHeader h2{
+	background: url(../img/h2.gif) no-repeat top left;
+	margin-left: 0px;
+	margin-bottom: 68px;
+	margin-top:0px;
+	width:372px;
+	height:33px;
+	text-indent: -5000px;
+}
+.quickSummary{
+	position: absolute;
+	top:320px;
+	left:30px;
+	width:172px;
+}
+p{
+	font:9pt/16pt Georgia, Times New Roman, Times, serif;
+	margin-top:0px;
+	text-align: left;
+	color:#010E22;
+}
+.quickSummary p{
+	font:bold 8pt/16pt Times New Roman, Times, serif;
+}
+.preamble{
+	margin:0 0 0 230px;
+	padding:0 10px;
+	width:450px;
+	border:1px solid #B2B9C4;
+	border-bottom:1px solid #F1F2EF;
+	background:#F1F2EF url(../img/leave_piece_1.gif) no-repeat left top;
+}
+.supportingText{
+	background:#F1F2EF url(../img/bg.gif) no-repeat center top;
+	border:1px solid #B2B9C4;
+	border-top:1px solid #F1F2EF;
+	margin-left:230px;
+	width:470px;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+}
+.explanation{
+	margin:0px 10px;
+}
+.participation,.benefits,.requirements{
+	margin:15px 10px 0px 10px;
+}
+.preamble h3{
+	background: url(../img/h3_the_road.gif) no-repeat top left;
+	width:450px;
+	height:66px;
+	margin-top:15px;
+}
+.supportingText h3{
+	width:450px;
+	height:50px;
+}
+.explanation h3{
+	background: url(../img/h3_a.gif) no-repeat top left;
+	margin-top:25px;
+}
+.participation h3{
+	background: url(../img/h3_b.gif) no-repeat top left;
+}
+.benefits h3{
+	background: url(../img/h3_c.gif) no-repeat top left;
+}
+.requirements h3{
+	background: url(../img/h3_d.gif) no-repeat top left;
+}
+.preamble h3 span,.explanation h3 span,.participation h3 span,.benefits h3 span,.requirements h3 span{
+	display: none;
+}
+.linkList{
+	position: absolute;
+	top:520px;
+	left:30px;
+}
+.wrapper{
+	font:9px verdana,sans-serif;
+	padding:0;
+	margin-top:20px;
+	width:150px;
+}
+.selection h3{
+	background: url(../img/h3_select.gif) no-repeat top left;
+	margin:0px;
+	width:150px;
+	height:36px;
+}
+.archives h3{
+	background: url(../img/h3_archives.gif) no-repeat top left;
+	margin:25px 0 0 0;
+	width:150px;
+	height:36px;
+}
+.resources h3{
+	background: url(../img/h3_resources.gif) no-repeat top left;
+	margin:25px 0 0 0;
+	width:150px;
+	height:36px;
+}
+.selection h3 span,.archives h3 span,.resources h3 span{
+	display: none;
+}
+.footer{
+	position: absolute;
+	top:10px;
+	right:50px;
+}
+a:link{
+	font-weight: bold;
+	text-decoration: none;
+	color:#A8A439;
+}
+a:hover{
+	text-decoration: underline;
+	color:#010E22;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+li{
+	line-height: 2.5ex;
+	padding-top:5px;
+	margin-bottom: 5px;
+}

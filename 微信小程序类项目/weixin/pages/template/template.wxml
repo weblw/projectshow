@@ -1,0 +1,29 @@
+<!-- 新闻模板 -->
+<template name='newsContent'>
+  <view class='newstemp'>
+    <view  class='titles'>
+      <text>{{title}}</text>
+    </view>
+    <view class='imgs'>
+      <image src='{{img}}'></image>
+    </view>
+    <view class='content'>
+      <text>{{content}}</text>
+      <text>{{newtitle}}</text>
+    </view>
+    <view class='footer'>
+      <text>阅读数：{{read}}</text>
+      <text>点赞数：{{click}}</text>
+      <text>评论数：{{pinlun}}</text>
+    </view>
+  </view>  
+</template>
+
+<template name='homeData'>
+  <view>
+    <button bindtap='gotokingworld' class='btngoto'>
+      <image src='{{img}}'></image>
+      <text>{{title}}</text>
+    </button>    
+  </view>
+</template>

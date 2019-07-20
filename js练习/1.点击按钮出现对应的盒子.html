@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			div{
+				width:150px;
+				height:150px;
+				background-color: #ffaabb;
+				margin:20px;
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<button>1号</button>
+		<button>2号</button>
+		<button>3号</button>
+		<div>1号盒子</div>
+		<div>2号盒子</div>
+		<div>3号盒子</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("button").click(function(){
+				var index=$(this).index();
+				$("div").eq(index).show().siblings("div").hide();
+			});
+		});		
+	</script>
+</html>

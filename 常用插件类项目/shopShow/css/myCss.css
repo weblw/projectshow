@@ -1,0 +1,442 @@
+/*设置导航颜色*/
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background-color: red;
+}
+.enter{
+	position: fixed;
+	top:10%;
+	right:5%;
+	z-index: 9999;
+	cursor: pointer;
+}
+.next{
+	position: fixed;
+	bottom: 10%;
+	right: 5%;
+	z-index: 9999;
+	animation: nexta .5s infinite;
+	cursor: pointer;
+}
+@keyframes nexta{
+	0%{bottom: 10%;}
+	50%{bottom: 15%;}
+	100%{bottom: 10%;}
+}
+/*第一屏开始*/
+.section1{
+	background:#fadd67 url(../img/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+.spritBox{
+	width: 850px;
+	height: 600px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.spritImg{
+	position: absolute;
+	top: 30%;
+}
+.qiQiu{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translateX(-50%);
+	animation: qiQiu 3s infinite;
+}
+.shaFa{
+	position: absolute;
+	top: 16%;
+	left: 27%;
+	animation: shaFa 3s infinite;
+}
+@keyframes qiQiu{
+	0%{top: 10%;}
+	50%{top: 18%;}
+	100%{top: 10%;}
+}
+@keyframes shaFa{
+	0%{top: 24%;}
+	50%{top: 16%;}
+	100%{top: 24%;}
+}
+/*第一屏结束*/
+
+/*第二屏开始*/
+.section2{
+	background: #84a2d4 url(../img/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+	z-index: 10;
+}
+.searchBox{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.bWords{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.lWords{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+.shaFas{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-60%);
+	width: 0;
+}
+.zhe{
+	width: 105px;
+	height: 105px;
+	position: absolute;
+	top: 28%;
+	left: 32%;
+}
+.moveShaFa{
+	width: 100px;
+	position: absolute;
+	bottom:15%;
+	display: none;
+	z-index: 999999;
+}
+.newSearch{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-60%);
+	display: none;
+}
+.searchImg{
+	width: 222px;
+	height: 45px;
+	position: absolute;
+	right:-37%;
+	top: 50%;
+	transform:translateY(-60%);
+	display: none;
+}
+.search{
+	position: absolute;
+}
+.searchWords{
+	position: absolute;
+	right: 14%;
+}
+/*第二屏结束*/
+
+/*第三屏开始*/
+.section3{
+	background: #ef674d url(../img/main.png) no-repeat center bottom;
+	z-index: 9;
+}
+.threeBox{
+	width: 650px;
+	height: 600px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.bList,.lList{
+	position: absolute;
+	top:50%;
+	right: 0%;
+}
+.lList{
+	display: none;
+}
+.bCar,.lCar{
+	position: absolute;
+	bottom:10%;
+	right: 10%;
+}
+.lCar{
+	display: none;
+}
+/*第三屏结束*/
+
+/*第四屏开始*/
+.section4{
+	background: #ffeedd url(../img/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+	z-index: 9;
+}
+.fourBox{
+	width: 880px;
+	height: 700px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.yun{
+	position: absolute;
+	bottom: 80%;
+	left:50%;
+	animation: yun 50s infinite;
+}
+@keyframes yun{
+	0%{left: 50%;}
+	50%{left: -50%;}
+	100%{left: 50%;}
+}
+.words,.adress{
+	position: absolute;
+	left: 50%;
+	top:20%;
+	transform: translateX(-50%);
+}
+.adress{
+	display: none;
+}
+.car{
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	transform: translateX(30%);
+	z-index: 999;
+}
+.moveShaFaX{
+	position: absolute;
+	top: -65%;
+	right: 50%;
+	transform: translateX(30%);
+	display: none;
+	z-index: 99;
+}
+.adressTab,.adressWords{
+	position: absolute;
+	bottom: 35%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+.adressWords{
+	bottom: 59%;
+}
+/*第四屏结束*/
+
+/*第五屏开始*/
+.section5{
+	background: url(../img/t1yisqfa4exxa3gmkg-2000-1500.png) center bottom;
+	overflow: hidden;
+}
+.fiveBox{
+	width: 800px;
+	height: 700px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translateX(-50%);
+	transform-style: preserve-3d;
+}
+.whiteWords{
+	position: absolute;
+	left: 10%;
+	display: none;
+	transform-style: preserve-3d;
+	z-index: 999;
+}
+.words3D{
+	display: block;
+	animation: go 1s forwards;
+}
+@keyframes go{
+	from{transform: rotateY(0deg);}
+	to{transform: rotateY(360deg);}
+}
+.cards{
+	position: absolute;
+	left: 15%;
+	bottom: 30%;
+	z-index: 99;
+}
+.tiao{
+	position: absolute;
+	left: 25%;
+	bottom: 40%;
+}
+.fShaFa{
+	position: absolute;
+	left: 22%;
+	bottom: 200%;
+	z-index: 8;
+}
+.bShuBiao,.lShuBiao{
+	position: absolute;
+	left: 70%;
+	bottom: 30%;
+	z-index: 8;
+}
+.lShuBiao{
+	display: none;
+}
+.shou{
+	position: absolute;
+	left: 68%;
+	bottom:-100%;
+	z-index: 8;
+}
+/*第五屏结束*/
+
+/*第六屏开始*/
+.section6{
+	background:#85d9ed url(../img/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat -100px bottom;
+	z-index: 9;
+}
+.sixS{
+	position: absolute;
+	left:30%;
+	bottom:100%;
+	display: none;
+	width: 30%;
+}
+.sixBox{
+	width: 800px;
+	height: 700px;
+	position: absolute;
+	bottom:0;
+	left: 300px;
+}
+.yun2{
+	position: absolute;
+	left:50%;
+	bottom: 80%;
+	animation: yun 50s infinite;
+}
+@keyframes yun{
+	0%{left: 50%;}
+	50%{left: -50%;}
+	100%{left: 50%;}
+}
+.xiangZi{
+	position: absolute;
+	left:35%;
+	bottom:50%;
+}
+.qiche{
+	position: absolute;
+	left:32%;
+	bottom: 0%;
+	z-index: 11;
+}
+.kuaitiyuan{
+	position: absolute;
+	left:32%;
+	bottom: 0%;
+	height: 0;
+	z-index: 10;
+}
+.women{
+	position: absolute;
+	left:90%;
+	bottom: 15%;
+	height: 0;
+}
+.ad{
+	position: absolute;
+	left:50%;
+	bottom: 17%;
+	display: none;
+	z-index: 11;
+}
+.door{
+	position: absolute;
+	left:89%;
+	bottom: 16.5%;
+	display: none;
+}
+.words6{
+	position: absolute;
+	left:55%;
+	bottom:55%;
+	display: none;
+}
+.words6-1{
+	position: absolute;
+	left:30%;
+	bottom: 70%;
+	display: none;
+}
+.words6-2{
+	position: absolute;
+	left:30%;
+	bottom: 70%;
+	display: none;
+}
+/*第六屏结束*/
+
+/*第七屏开始*/
+.section7{
+	background:#8ac060 url(../img/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat center bottom;
+	z-index: -1;
+}
+.sevenBox{
+	width: 800px;
+	height: 700px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.starzhe{
+	position: absolute;
+	left:11%;
+	bottom: 63%;
+	height:20px;
+	width: 122px;
+	background: url(../img/star.png) no-repeat;
+	background-position-x: -122px;
+}
+.haoping{
+	position: absolute;
+	left:10%;
+	bottom:53%;
+	display: none;
+}
+/*第七屏结束*/
+
+/*第八屏开始*/
+.section8{
+	background:#84d9ed url(../img/ksgw.png)  center bottom;
+	z-index: -1;
+}
+.eightBox{
+	width: 800px;
+	height: 700px;
+	position: absolute;
+	bottom:0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.kaishi-1,.kaishi-2{
+	position: absolute;
+	left:20%;
+	bottom:50%;
+	cursor: pointer;
+}
+.kaishi-2{
+	display: none;
+}
+.zaiyici{
+	position: absolute;
+	left:72%;
+	bottom:55%;
+	cursor: pointer;
+}
+.moveshou{
+	position: absolute;
+	left:300px;
+	top:750px;
+}
+/*第八屏结束*/

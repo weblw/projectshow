@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearFloat:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.content {
+	width: 100%;
+}
+
+
+/*导航栏start*/
+
+.nav {
+	width: 900px;
+	height: 36px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: black;
+}
+
+.nav .navLogo {
+	font-size: 18px;
+	font-weight: 100;
+	color: #fff;
+	line-height: 36px;
+	float: left;
+}
+
+.nav ul {
+	float: right;
+}
+
+.nav ul li {
+	float: left;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: white;
+	line-height: 36px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.nav ul li a.firstA {
+	color: #999;
+}
+
+.nav ul li a:hover {
+	color: #999;
+}
+
+
+/*导航栏end*/
+
+
+/*banner start*/
+
+.banner {
+	width: 100%;
+	background-color: #000000;
+}
+
+.bannerB {
+	display: block;
+	width: 100%;
+	height: 657px;
+	background-image: url(../img/max.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/*banner  end*/
+
+
+/*内容区开始*/
+
+.contentn {
+	background-color: #fafafa;
+}
+
+.container {
+	width: 900px;
+	height: 214px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.containerLeft {
+	width: 299px;
+	height: 214px;
+	overflow: hidden;
+	float: left;
+}
+
+.containerCont {
+	height: 42px;
+	width: 100%;
+	margin-top: 80px;
+	float: left;
+}
+
+.containerLeft .containerCont .containerContLeft {
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.containerLeft .containerCont .containerContRight {
+	float: left;
+	padding-right: 30px;
+	border-right: 1px solid #999;
+}
+
+.containerLeft .containerCont .containerContRight h3 {
+	font-size: 18px;
+	font-weight: 100;
+	color: #333;
+}
+
+.containerLeft .containerCont .containerContRight p {
+	font-size: 16px;
+	font-weight: 100;
+	color: #999;
+}
+
+.containerLeft .containerCont a {
+	text-decoration: none;
+}
+
+.containerLeft .containerCont a:hover h3 {
+	color: orange;
+}
+
+.containerLeft .containerCont a:hover p {
+	color: orange;
+}
+
+.containerLeft .containerCont .lastcontent {
+	border: none;
+}
+
+
+/*内容区结束*/
+
+
+/*底部区域开始*/
+
+.foot {
+	background-color: #FAFAFA;
+}
+
+.fotter {
+	width: 900px;
+	height: 156px;
+	margin: 0 auto;
+	display: table;
+	position: relative;
+}
+
+.fotter .fotterlist {
+	width: 746px;
+	list-style: none;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.fotter .fotterlist .li {
+	float: left;
+	border-left: 1px solid #E1E1E1;
+	padding: 0 21.5px;
+}
+
+.fotter .fotterlist .sinna {
+	border-left:0px solid #E1E1E1;
+}
+
+.fotter .fotterlist .li a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #666;
+}
+
+.fotter .fotterlist .li a:hover {
+	color: orange;
+}
+
+.father {
+	position: relative;
+}
+
+.father:hover img#erweima {
+	display: block;
+}
+
+#erweima {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: -20px;
+	bottom: 20px;
+	display: none;
+}
+
+.fotter p {
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+	padding: 15px 0 45px;
+}
+
+.fotter .fotterlist .lastli {
+	position: relative;
+}
+
+.fotter .fotterlist .lastli ul {
+	width: 100px;
+	text-align: center;
+	list-style: none;
+	position: absolute;
+	right: 10px;
+	bottom: -8px;
+	background-color: white;
+	display: none;
+}
+
+.fotter .fotterlist .lastli:hover #language {
+	display: block;
+}
+
+.fotter .fotterlist .lastli ul li {
+	padding-bottom: 10px;
+}
+
+
+/*底部区域结束*/

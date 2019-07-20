@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+			}
+			#container{
+				width:360px;
+				height:435px;
+				border:1px solid #666;
+				margin:100px auto;
+			}
+			#big{
+				width:360px;
+				height:360px;
+				background:url(img/01big.jpg) no-repeat;
+			}
+			#small li{
+				list-style: none;
+				float:left;
+				border:1px solid #666;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="big"></div>
+			<div id="small">
+				<ul>
+					<li><img src="img/01.jpg"/></li>
+					<li><img src="img/02.jpg"/></li>
+					<li><img src="img/03.jpg"/></li>
+					<li><img src="img/04.jpg"/></li>
+					<li><img src="img/05.jpg"/></li>
+				</ul>
+			</div>
+		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			var lis=$("li");
+			var big=$("#big");
+			lis.mouseenter(function(){
+				var index=$(this).index()+1;
+				big.css("background-image","url(img/0"+index+"big.jpg)")
+			});
+		</script>
+	</body>
+</html>

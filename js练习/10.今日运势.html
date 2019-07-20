@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+			}
+			.box{
+				width:530px;
+				height:440px;
+				margin:100px auto;
+				border:1px solid black;	
+				padding:20px;	
+			}
+			h2{
+				color:#666;
+				font-size:24px;
+				margin-bottom: 20px;
+			}
+			.left{
+				width:50px;
+				height:50px;
+				background:url(img/星座精灵图.png) no-repeat;
+				float:left;
+				margin:0px 50px;
+			}
+			select{
+				padding-left:10px;
+				width:200px;
+				height:30px;
+				font-size:18px;
+				display: block;
+				margin-bottom: 10px;
+			}
+			.starBox span{
+				display: block;
+				float:left;
+			}
+			.star{
+				width:80px;
+				height:13px;
+				float:left;
+				position: relative;
+			}
+			.light{
+				display:block;
+				width:80px;
+				height:13px;
+				float:left;
+				background:url(img/星星图.png) left bottom no-repeat;
+				position: absolute;
+				top:5px;
+				left:0;
+			}
+			.black{
+				display:block;
+				width:80px;
+				height:13px;
+				float:left;
+				background:url(img/星星图.png) left top no-repeat;
+				margin-top:5px;
+			}
+			.txt{
+				clear:both;
+			}			
+			p{
+				padding-top:20px;
+				text-indent:2em;
+				font-size: 20px;
+			}
+		</style>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">	
+			$(function(){
+				var arr=[10,9,6,8,6,8,5,2,1,3,6,1];
+				var str=["今天的事业运势不错，虽然容易有一些竞争者或其他小人出现在事业中，但他们反而会成就自己的事业。今天仍然适合外出学习进修，提升自己。","外出容易遇到一些小麻烦，但终能化解，转不利为有利。","会专注于事业方面，虽然在事业工作方面，会有些迷茫，这天感情方面运势也不错。","这天巨蟹会很忙碌，但会忙得非常愉快，即使平时不太爱运动的巨蟹，这天也可能很强活动一下自己。","快乐的一天，也有迁移运势，工作和健康方面的运势也都还不错。","这天适合多听取一些朋友，对自己家庭，或者房子装修布置的建议。","有利于学习考试，与上司的沟通也会比较良好，总体比较愉快。","财运很好的一天，讲话比较严谨大气，也适合多一些娱乐活动。","不错的一天，财运仍然较好，会因为平时不太熟悉的一些晚辈帮助，或者因为娱乐活动而获利。","有朋友来帮助自己，让自己信心满满，心理层面，也是比较愉悦。","暗中会得人帮助，也容易得到亲戚，邻居的一些帮助，这天财运上也还可以。","社交运仍然强旺，内心也变得强大起来，也会因为事业方面的事情，心情愉快。"];
+				var $sec=$("select");
+				var $left=$(".left");
+				var $light=$(".light");
+				var $content=$(".content")
+				$sec.change(function(){
+					var val=$(this).val();
+					fun(val,arr[val],str[val]);
+				});
+				function fun(val,num,str){
+					$left.css("backgroundPositionY",(-val*50)+"px");
+					$light.width((num*8)+"px");
+					$content.text(str);
+				}
+			});			
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<h2>今日运势</h2>
+			<div class="sec">
+				<div class="left"></div>
+				<div class="right">
+					<select name="sec">
+						<option value="0">白羊座03.21-04.19</option>
+						<option value="1">金牛座04.20-05.20</option>
+						<option value="2">双子座05.21-06.21</option>
+						<option value="3">巨蟹座06.22-07.22</option>
+						<option value="4">狮子座07.23-08.22</option>
+						<option value="5">处女座08.23-09.22</option>
+						<option value="6">天秤座09.23-10.23</option>
+						<option value="7">天蝎座10.24-11.22</option>
+						<option value="8">射手座 11.23-12.21</option>
+						<option value="9">摩羯座12.22-01.19</option>
+						<option value="10">水瓶座01.20-02.18</option>
+						<option value="11">双鱼座02.19-03.20</option>
+					</select>
+					<div class="starBox">
+						<span>今日运势：</span>
+						<div class="star">
+							<span class="light"></span>
+							<span class="black"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="txt">
+				<p class="content">今天的事业运势不错，虽然容易有一些竞争者或其他小人出现在事业中，但他们反而会成就自己的事业。今天仍然适合外出学习进修，提升自己。</p>
+			</div>
+		</div>
+	</body>
+</html>

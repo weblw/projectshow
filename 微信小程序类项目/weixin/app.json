@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/content/content",
+    "pages/selfInfo/selfInfo",
+    "pages/video/video",
+    "pages/detail/detail",
+    "pages/videoInfo/videoInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#226aff",
+    "navigationBarTitleText": "我的第一个小程序",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1aad19",
+    "backgroundColor": "#ccc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/扫码.png",
+        "selectedIconPath": "images/扫码.png"
+      },
+      {
+        "pagePath": "pages/content/content",
+        "text": "新闻头条",
+        "iconPath": "images/消息.png",
+        "selectedIconPath": "images/消息.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "热播电影",
+        "iconPath": "images/客服.png",
+        "selectedIconPath": "images/客服.png"
+      },
+      {
+        "pagePath": "pages/selfInfo/selfInfo",
+        "text": "个人设置",
+        "iconPath": "images/设置.png",
+        "selectedIconPath": "images/设置.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

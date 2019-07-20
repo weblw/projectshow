@@ -1,0 +1,177 @@
+body{
+	font: 11px/1.3em Arial,Helvetica,sans-serif;
+	text-align: center;
+	background: #bebcad;
+	margin:0;
+	padding:0;
+}
+h1,h2,h3{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:580px;
+	margin:0 auto;
+	text-align: left;
+	position: relative;
+	background: url(../img/container.gif) repeat-y center top;
+}
+.intro .pageHeader h1{
+	background:url(../img/csszen.jpg) no-repeat top left;
+	width:580px;
+	height:40px;
+}
+.pageHeader h1 span{
+	display: none;
+}
+.pageHeader h2{
+	background:url(../img/beauty.jpg) no-repeat top left;
+	width:580px;
+	height:169px;
+}
+.pageHeader h2 span{
+	display: none;
+}
+.quickSummary{
+	background:url(../img/quicksummary.gif) no-repeat top left;
+	height:178px;
+	margin-top:-11px;
+}
+.quickSummary .p1{
+	display: none;
+}
+.quickSummary .p2{
+	margin-right:200px;
+	color:#382A07;
+	text-align: right;
+	padding-top:150px;
+	padding-right:30px;
+}
+a:link,a:visited{
+	color:#5785A4;
+}
+a:hover{
+	color:#1D8FDB;
+}
+.preamble,.supportingText{
+	padding-right:280px;
+}
+h3{
+	font:normal 10px/12px arial,helvetica,sans-serif;
+	text-transform: uppercase;
+	margin:20px 0 0 30px;
+	color:#574D33;
+}
+.preamble p,.supportingText p{
+	margin:0 10px;
+	background:url(../img/p.gif);
+	text-align: justify;
+	width:290px;
+	padding:5px 30px 15px 30px;
+	color:#786A47;
+	line-height:1.5em;
+}
+.requirements p:nth-child(6){
+	margin-bottom: 110px;
+	text-align: center;
+}
+.supportingText{
+	background:url(../img/foot2.jpg) no-repeat 0 100%;
+}
+.footer{
+	height:34px;
+	line-height: 34px;
+	text-align: center;
+	padding-bottom: 14px;
+	padding-left:80px;
+}
+.footer a{
+	color:#c6c6c6;
+	text-decoration: underline;
+}
+.footer a:hover{
+	color:#fff;
+}
+.linkList{
+	position:absolute;
+	top:210px;
+	right:0;
+	width:210px;
+}
+.selection h3{
+	background:url(../img/styles.jpg) no-repeat top left;
+	height:39px;
+	margin:0;
+	margin-top:-1px;
+}
+.selection h3 span{
+	display: none;
+}
+.archives h3{
+	background:url(../img/styles.jpg) no-repeat top left;
+	height:39px;
+	margin:0;
+}
+.archives h3 span{
+	display: none;
+}
+.resources h3{
+	background:url(../img/styles.jpg) no-repeat top left;
+	height:39px;
+	margin:0;
+}
+.resources h3 span{
+	display: none;
+}
+.selection ul,.archives ul,.resources ul{
+	list-style: none;
+	margin:10px 20px 30px 10px;
+}
+.selection ul li,.archives ul li,.resources ul li{
+	padding-left:1px;
+	margin:10px 0 0 8px;
+	margin-left:-30px;
+	display: block;
+	background: url(../img/dot.gif) repeat-x 0 100%;
+}
+.selection ul li a,.archives ul li a,.resources ul li a{
+	display: block;
+	font-weight: bold;
+	color:#E5D9BC;
+	text-decoration: none;
+	margin-left:-5px;
+	padding-left:19px;
+	padding-bottom:4px;
+	background: url(../img/dot2.gif) no-repeat 0 1px;
+}
+.selection ul li a:hover,.archives ul li a:hover,.resources ul li a:hover{
+	color:#7ECDFF;
+	background: url(../img/dot2on.gif) no-repeat 0 1px;
+}
+.selection ul li .designer-name{
+	display: inline-block;
+	padding:0;
+	margin:0;
+	background: none;
+	font-weight: normal;
+	color: #595339;
+}
+.selection ul li .designer-name:hover{
+	color:#7ECDFF;
+	background: none;
+}
+.extra1{
+	position: absolute;
+	top:0;
+	left:0;
+	background: url(../img/uncultivated.gif) no-repeat;
+	width:43px;
+	height:297px;
+}
+.resources{
+	padding-bottom: 220px;
+	background: url(../img/flowers.jpg) no-repeat 0 100%;
+}
+.resources ul{
+	margin-top:-220px;
+}

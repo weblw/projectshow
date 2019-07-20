@@ -1,0 +1,25 @@
+<!--pages/video/video.wxml-->
+<view class="video" wx:for="{{videoData}}" wx:key="{{item.id}}">
+  <view class="video_item" data-id='{{item.id}}' bindtap='gotoInfo'>
+    <!-- 图片 --> 
+    <view class="video_img">
+      <image src="{{item.images.large}}" />
+    </view>
+    <!-- 详情 -->
+    <view class="info_container">
+      <view class="info">
+        <text class="number">编号：{{item.id}}</text>
+        <text class="title">{{item.original_title}}</text>
+        <text class="genres">{{item.genres[0]}}.{{item.genres[1]}}</text>
+        <text class="director">{{item.directors.name}}</text>
+        <text class="zhuyan">{{item.casts[0].name}}/{{item.casts[1].name}}/{{item.casts[2].name}}
+        </text>
+        <text class="year">年份：{{item.year}}</text>
+      </view>
+      <!-- 评分 -->
+      <view class="score">
+        <text class="score_num">{{item.rating.average}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+/* pages/content/content.wxss */
+@import '/pages/template/template.wxss';
+
+.containers{
+  padding: 5px;
+}
+.containers .lunboimg image{
+  width: 100%;
+}
+.containers .contentnews text{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+.containers .contentnews>text{
+  font-size: 50rpx;
+  color:block;   
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 0;
+  background-color: skyblue;
+}

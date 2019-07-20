@@ -1,0 +1,231 @@
+body{
+	margin:0;
+	padding:0;
+	background:#421d42;
+	color:#471c47;
+	font-family: verdana,arial,sans-serif;
+	font-size: 0.7em;
+}
+.container{
+	width:750px;
+	height:1335px;
+	margin:0 auto;
+	position: relative;
+	border:1px #421d42 solid;
+}
+.pageHeader{
+	width:250px;
+	height:625px;
+	background:url(../img/bg-pageHeader.gif) no-repeat;
+	margin-top:0px;
+	margin-left:0px;
+	position:absolute;
+	top:350px;
+	left:250px;
+	z-index: 0;	
+}
+h1,h2{
+	display: none;
+}
+p{
+	padding:0 15px;
+}
+.quickSummary{
+	margin-top:0px;
+	margin-left:0px;
+	position: relative;
+	top:350px;
+	left:250px;
+	z-index: 1;
+}
+.quickSummary .p1{
+	display: none;
+}
+.quickSummary p:last-child{
+	color:#fff;
+	font-weight:bold;
+	text-align: right;
+	padding:0;
+	width:425px;
+	margin-top:0;
+	margin-left:0px;
+	position: absolute;
+	top:-18px;
+	left:-250px;
+	z-index: 2;
+}
+.quickSummary a{
+	color:#339999;
+	text-decoration: none;	
+}
+.quickSummary a:hover{
+	color:#336699;
+	text-decoration: underline;
+}
+
+.preamble{
+	width:500px;
+	height:350px;
+	background: #471c47 url(../img/bg-road.gif);
+	margin-top:0px;
+	position:absolute;
+	top:0;
+}
+.preamble p{
+	color:#fff;
+	font-size: 1.25em;
+	font-style: italic;
+	padding:0 15px 0 15px;
+}
+.preamble p:nth-child(2){
+	margin-top:-20px;
+}
+.supportingText{
+	background-color:#341256;
+}
+
+.explanation{
+	width:250px;
+	height:490px;
+	background: #a690af url('bg-about.gif');
+	margin-top:0px;
+	margin-left:0px;
+	position: absolute;
+	top:0;
+	left:500px;
+}
+.explanation h3{
+	background-image: url(../img/heading-about.gif);
+	width:250px;
+	height:100px;
+}
+.explanation h3 span,.participation h3 span,.benefits h3 span,.requirements h3 span,.linkList h3 span{
+	display:none;
+}
+.participation{
+	width:250px;
+	height:485px;
+	background: #a690af url(../img/bg-participation.gif);
+	margin-top:0px;
+	margin-left:0px;
+	position: absolute;
+	top:490px;
+	left:500px;
+}
+.participation h3{
+	background-image: url(../img/heading-participation.gif);
+	width:250px;
+	height:50px;
+}
+.benefits,.requirements{
+	color:#072849;
+}
+.benefits{
+	width:250px;
+	height:230px;
+	background:#85a3c2 url(../img/bg-benefits.gif);
+	margin-top:0px;
+	position:absolute;
+	top:350px;
+}
+.benefits h3{
+	background-image: url(../img/heading-benefits.gif);
+	width:250px;
+	height:60px;
+}
+.requirements{
+	width:250px;
+	height:755px;
+	background:#85a3c2 url(../img/bg-requirements.gif);
+	margin-top:0px;
+	position: absolute;
+	top:580px;
+}
+.requirements h3{
+	background-image: url(../img/heading-requirements.gif);
+	width:250px;
+	height:50px;
+}
+.linkList{
+	width:500px;
+	height:305px;
+	background: #336699 url(../img/bg-select.gif);
+	margin-top:0px;
+	margin-left:0px;
+	position: absolute;
+	top:975px;
+	left:250px;
+}
+.selection{
+	margin-bottom:0px;
+	margin-left:0px;
+	position: absolute;
+	bottom: -5px;
+	left:10px;
+	width:300px;
+}
+.archives{
+	margin-top:0px;
+	margin-left:0px;
+	position: absolute;
+	top:30px;
+	left:290px;
+}
+.resources{
+	margin-top:0px;
+	margin-left:0px;
+	position: absolute;
+	top:180px;
+	left:290px;
+}
+.footer{
+	text-align: center;
+	text-transform: uppercase;
+	width:500px;
+	height:20px;
+	background:#336699 url(../img/bg-footer.gif);
+	margin-top:0px;
+	margin-left: 0px;
+	position: absolute;
+	top:1280px;
+	left:250px;
+}
+.contentinfo{
+	margin-top:0px;
+	margin-left: 0px;
+	position: absolute;
+	top:720px;
+	left:250px;
+	width:420px;
+	height:30px;
+	font-size:0.9em;
+	background-color:#fff;
+	color:#471c47;
+	text-align: center;
+	padding:5px 40px 0 40px;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+}
+a:hover{
+	color:#336699;
+	text-decoration: underline;
+}
+.contentinfo a{
+	color:#336699;
+	font-weight: bold;
+}
+.contentinfo a:hover{
+	color:#339999;
+}
+.linkList a:hover{
+	background-color:#fff;
+	color:#471c47;
+}
+.linkList ul{
+	list-style: none;
+}
+.design-name1{
+	font-weight: bold;
+}
